@@ -6,11 +6,11 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 import java.util.List;
 
-public class FragmentViewPagerAdapter extends FragmentPagerAdapter {
+public class BannerFragmentAdapter extends FragmentPagerAdapter {
 
-    private List<FragmentBannerView> bannerViewList;
+    private List<BannerViewFragment> bannerViewList;
 
-    public FragmentViewPagerAdapter(FragmentManager fm, List<FragmentBannerView> bannerViewList) {
+    public BannerFragmentAdapter(FragmentManager fm, List<BannerViewFragment> bannerViewList) {
         super(fm);
         this.bannerViewList = bannerViewList;
     }

@@ -4,9 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:id="@+id/layout_container">
 
     <com.widgets.wwq.customwidgets.BannerView.BannerView
+        android:id="@+id/bv_banner"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Hello World!"
@@ -14,5 +16,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
 
 </android.support.constraint.ConstraintLayout>
