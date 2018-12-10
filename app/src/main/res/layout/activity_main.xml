@@ -7,15 +7,29 @@
     tools:context=".MainActivity"
     android:id="@+id/layout_container">
 
-    <com.widgets.wwq.customwidgets.BannerView.BannerView
-        android:id="@+id/bv_banner"
+    <!--<com.widgets.wwq.customwidgets.BannerView.BannerView-->
+        <!--android:id="@+id/bv_banner"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="Hello World!"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    <com.widgets.wwq.customwidgets.TextViewList.TextViewList
+        android:id="@+id/tvl_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="8dp"
+        app:color_mode="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </com.widgets.wwq.customwidgets.TextViewList.TextViewList>
 
 
 

@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="vp_pager" type="id"/>
+
+    <declare-styleable name="TextViewList">
+        <!--左右边距-->
+        <attr name="inner_padding" format="dimension"/>
+        <!--上下文边距-->
+        <attr name="line_padding" format="dimension"/>
+        <!--颜色模式 0，循环；1 随机-->
+        <attr name="color_mode" format="integer"/>
+    </declare-styleable>
 </resources>
